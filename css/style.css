@@ -3,7 +3,7 @@ header .logo{
     left: calc(50% - 40px);
     top: 16px;
 }
-.container{
+header .container{
     max-width: 1064px;
     margin: auto;
     display: flex;
@@ -51,8 +51,9 @@ header li:hover{
     right: calc(47% - 600px);
 }
 .fall_deeper .container{
-    max-width: 1088px;
+    max-width: 1064px;
     display: block;
+    margin: auto;
 }
 .fall_deeper .container h1{
     font-family: 'Roboto', sans-serif;
@@ -106,7 +107,9 @@ header li:hover{
     max-width: 1064px;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*display block стягивает
+    параграф к левому краю центрального блока*/
+    align-items: center;
 }
 .guides h2{
     font-family: 'Roboto', sans-serif;
