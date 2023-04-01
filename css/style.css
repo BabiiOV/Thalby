@@ -1,0 +1,124 @@
+header .logo{
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 16px;
+}
+.container{
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+header nav a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+    text-decoration: none;
+}
+header .container ul{
+    display: flex;
+    align-items: center;
+}
+header nav li{
+    margin-right: 28px;
+}
+header .logos li{
+    margin-right: 14px;
+}
+
+/*fall deeper*/
+
+
+.fall_deeper{
+    background: #F0EFEB;
+    border-radius: 0px;
+    position: relative;
+    padding: 90px 0;
+    box-sizing: border-box;
+}
+.fall_deeper .moroccan{
+    position: absolute;
+    top: 9px;
+    right: calc(48% - 600px);
+}
+.fall_deeper .container{
+    max-width: 1088px;
+    display: block;
+}
+.fall_deeper .container h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    max-width: 534px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.fall_deeper .container h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    max-width: 534px;
+    margin-top: 0;
+    margin-bottom: 42px;
+}
+.fall_deeper .container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 26px;
+    max-width: 481px;
+}
+.fall_deeper .container a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 8px 23px;
+    text-decoration: none;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+/*guides*/
+.guides{
+    padding-top: 60px;
+    padding-bottom: 21px;
+}
+.guides .container{
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.guides h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.guides p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 47px;
+    max-width: 632px;
+}
