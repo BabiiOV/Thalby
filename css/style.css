@@ -60,7 +60,7 @@ header li:hover{
     display: flex;
     box-sizing: border-box;
 }
-.fall_deeper .container h4{
+.fall_deeper .container h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 60px;
@@ -68,6 +68,7 @@ header li:hover{
     color: #000000;
     margin-bottom: 42px;
     max-width: 534px;
+    margin-top: 0;
 }
 .fall_deeper .container p{
     font-family: 'Roboto', sans-serif;
@@ -128,67 +129,109 @@ header li:hover{
     margin: auto;
 }
 
-/*!*best sellers*!*/
+/*best sellers*/
 
-/*.best_sellers{*/
-/*    padding-bottom: 248px;*/
-/*    padding-top: 41px;*/
-/*}*/
-/*.best_sellers .container{*/
-/*    max-width: 1064px;*/
-/*    margin: auto;*/
-/*}*/
-/*.best_sellers h3{*/
-/*    font-family: 'Roboto', sans-serif;*/
-/*    font-weight: 700;*/
-/*    font-size: 36px;*/
-/*    line-height: 42px;*/
-/*    text-align: center;*/
-/*    color: #000000;*/
-/*    margin-bottom: 52px;*/
-/*}*/
-/*.best_sellers .cards{*/
-/*    width: 100%;*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
-/*.best_sellers .cards article{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*}*/
-/*.best_sellers article img{*/
-/*    margin-bottom: 20px;*/
-/*}*/
-/*.best_sellers article p:first-of-type{*/
-/*    font-family: 'Roboto', sans-serif;*/
-/*    font-weight: 700;*/
-/*    font-size: 17px;*/
-/*    line-height: 20px;*/
-/*    text-align: center;*/
-/*    color: #000000;*/
-/*    margin-bottom: 17px;*/
-/*    max-width: 164px;*/
-/*}*/
-/*.best_sellers article p:last-of-type{*/
-/*    font-family: 'Roboto', sans-serif;*/
-/*    font-weight: 400;*/
-/*    font-size: 17px;*/
-/*    line-height: 20px;*/
-/*    text-align: center;*/
-/*    color: #000000;*/
-/*    margin-bottom: 10px;*/
-/*}*/
-/*.best_sellers article a{*/
-/*    font-family: 'Roboto', sans-serif;*/
-/*    font-weight: 700;*/
-/*    font-size: 17px;*/
-/*    line-height: 20px;*/
-/*    text-align: center;*/
-/*    text-decoration-line: underline;*/
-/*    color: #000000;*/
-/*}*/
+.best_sellers{
+    padding-bottom: 248px;
+    padding-top: 41px;
+}
+.best_sellers .container{
+    max-width: 1064px;
+    margin: auto;
+}
+.best_sellers h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 52px;
+}
+.best_sellers .cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.best_sellers .cards article{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.best_sellers article p:first-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    max-width: 164px;
+}
+.best_sellers article p:last-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.best_sellers article a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    display: inline-block;
+}
+.best_sellers .owl-nav{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+.best_sellers .owl-nav .owl-prev{
+    position: absolute;
+    top: 35%;
+    left: -55px;
+    width: 50px;
+    height: 50px;
+}
+.best_sellers .owl-nav .owl-prev:before{
+    content: "\f053";
+    color: black;
+}
+.best_sellers .owl-nav .owl-next{
+    position: absolute;
+    right: -55px;
+    top: 35%;
+    width: 50px;
+    height: 50px;
+}
+.best_sellers .owl-nav .owl-next:before{
+    color: black;
+    content: "\f054";
+}
+.owl-dots{
+    position: absolute;
+    left: 492px;
+    bottom: -50px;
+}
+.owl-dots .owl-dot span{
+    background: black!important;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.owl-dots .owl-dot.active span{
+    background-color: plum!important;
+    border: solid 2px black;
+}
 
 /*!*french*!*/
 
