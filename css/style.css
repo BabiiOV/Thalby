@@ -1,7 +1,9 @@
+
 header .logo{
     position: absolute;
     left: calc(50% - 40px);
     top: 16px;
+    z-index: 100;
 }
 header .container{
     max-width: 1064px;
@@ -20,7 +22,7 @@ header nav a{
     color: #1C1B1B;
     text-decoration: none;
 }
-header .container ul{
+header ul{
     display: flex;
     align-items: center;
 }
@@ -29,6 +31,7 @@ header nav li{
 }
 header .logos li{
     margin-right: 14px;
+    z-index: 100;
 }
 header .logos li:first-of-type{
     margin-right: 22px;
@@ -96,6 +99,7 @@ header li:hover{
     position: absolute;
     top: -81px;
     right: -104px;
+
 }
 
 /*guides*/
@@ -192,6 +196,7 @@ header li:hover{
 .best_sellers .owl-nav{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
+    font-size: 40px;
 }
 .best_sellers .owl-nav .owl-prev{
     position: absolute;
@@ -218,7 +223,7 @@ header li:hover{
 .owl-dots{
     position: absolute;
     left: 479px;
-    bottom: -50px;
+    bottom: -75px;
 }
 .owl-dots .owl-dot span{
     background: black!important;
