@@ -110,10 +110,13 @@ header {
         visibility: hidden;
         display: block;
         top: 50%;
-        left: -25px;
+        left: 0;
         -webkit-transform: translate(0%, -50%);
         transform: translate(0%, -50%);
         width: 100%;
+      }
+      @include max-screen(429px){
+        left: -8%;
       }
 
       ul {
